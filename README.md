@@ -35,7 +35,8 @@ This project demonstrates the application of **IoT, embedded systems, and roboti
 
 ## 💡 Working Principle  
 1. The bot moves through the mine while collecting data from gas, temperature and humidity sensors.  
-2. The microcontroller processes this data and sends it to the operator wirelessly.  
+2. The microcontroller processes this data and sends it to the operator wirelessly.
+   The real-time data updation log can be seen through the serial monitor of the IDE and also on the receiver LCD. 
 3. If gas, temperature or humidity concentration exceeds safe limits or obstacles are detected, alerts are generated.  
 4. The operator can control or monitor the bot remotely for quick safety responses.
 
